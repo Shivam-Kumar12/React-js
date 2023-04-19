@@ -1,22 +1,33 @@
-import React from 'react'
-import './App.css'
-import Header from './components/Header'
-import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
-import About from './pages/About'
-import Event from './pages/Event'
-import Contact from './pages/Contact'
-function App() {
-  return (
-    <>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/products" element={<Event />} />
-        <Route path="/blog" element={<Contact />} />
-      </Routes>
-    </>
-  )
+import React from 'react';
+import { connect } from 'react-redux';
+import { Header, Footer } from './components';
+import Navigation from './navigation';
+import { getStore } from './utils';
+import { ActionCreators } from './actions/profile';
+import './styles';
+
+class App extends React.Component {
+  componentDidMount() {
+    const user = getStore('user')
+    if (user) {
+      this.props.dispatch(ActionCreators.login(user));
+    }
+  }
+  render() {
+    return (
+      <div>
+        <Header />
+        <Navigation />
+        <Footer />
+      </div>
+    )
+  }
 }
-export default App
+
+const mapStateToProps = (state) => {
+  return {
+    profile: state.user.profile
+  }
+}
+
+export default connect(mapStateToProps)(App);
