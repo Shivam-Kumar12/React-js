@@ -1,33 +1,23 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import { Header, Footer } from './components';
-import Navigation from './navigation';
-import { getStore } from './utils';
-import { ActionCreators } from './actions/profile';
-import './styles';
+import logo from './logo.svg'
+import Header from './Header';
+import Home from './Home';
+import Event from './Event';
+import About from './About';
+import Contact from './Certificate';
+import Footer from './Footer';
 
-class App extends React.Component {
-  componentDidMount() {
-    const user = getStore('user')
-    if (user) {
-      this.props.dispatch(ActionCreators.login(user));
-    }
-  }
-  render() {
-    return (
-      <div>
-        <Header />
-        <Navigation />
-        <Footer />
-      </div>
-    )
-  }
+const App = ()=>{
+  return(
+    <div>
+        <Header/>
+        <Home/>
+        <About/>
+        <Event/>
+        <Contact/>
+        <Footer/>
+    </div>
+  )
 }
 
-const mapStateToProps = (state) => {
-  return {
-    profile: state.user.profile
-  }
-}
-
-export default connect(mapStateToProps)(App);
+export default App;
