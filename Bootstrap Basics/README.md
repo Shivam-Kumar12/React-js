@@ -9,12 +9,11 @@ Currently, two official plugins are available:
 
 Using npm Package Manager:
 1. Install Bootstrap:
-2. 
 Open your terminal and run:
 
  ****npm install bootstrap****
  
-Import Bootstrap CSS in your React component:
+2. Import Bootstrap CSS in your React component:
 
 Open the React component where you want to use Bootstrap styles and import the Bootstrap CSS file:
 
