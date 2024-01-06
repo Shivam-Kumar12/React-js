@@ -6,3 +6,22 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/Shivam-Kumar12/React-js/assets/109784057/f9441eaa-772a-4204-be92-fd78dae9773c)
+
+ 
+ Passing Children
+
+function Container (props) {
+return (
+<div className="container-style">
+  {props.children}
+</div>
+);
+}
+
+
+<Container>
+<h1>Welcome to My App</h1>
+<p>This content is passed as children to the
+Container component.</p>
+</Container>
