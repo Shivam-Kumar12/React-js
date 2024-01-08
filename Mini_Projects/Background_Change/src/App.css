@@ -1,0 +1,19 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+  position:fixed ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color:silver;
+  padding: 5px;
+  bottom: 10px;
+  border-radius: 12px;
+  gap: 30px;
+  left: 50px;
+}
+.btn{
+  border:1px solid black;
+}
