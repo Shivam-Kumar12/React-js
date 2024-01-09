@@ -1,0 +1,48 @@
+/* Increment.module.css */
+
+.Inc {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+  
+  .numb {
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .btn1{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    margin-left: -200px;
+    border-radius: 5px;
+  }
+  
+  .submit {
+    margin-top: 220px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    left: -80px;
+  }
+  
+  .result {
+display: block;
+align-items: end;
+  }
+  
