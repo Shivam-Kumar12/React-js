@@ -1,0 +1,36 @@
+input {
+    width: 100%;
+    border-radius: 8px;
+    height: 40px;
+}
+input:hover,
+select:hover {
+    border-color: solid;
+    box-shadow: 2px 2px 2px 2px rgba(10, 3, 3, 0.304);
+}
+
+.items-container {
+    text-align: left;
+    outline: 1px solid black;
+    width: 99%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-radius: 20px ;
+}
+
+.custom-row {
+    margin: 15px 5px;
+}
+
+.custom-btn {
+    min-width: 80px;
+}
+.row-btn{
+    margin-left: 60px;
+
+}
+
+.todo-container {
+    height: 100%;
+    width: 100%;
+}
