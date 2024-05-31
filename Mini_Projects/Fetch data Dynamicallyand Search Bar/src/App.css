@@ -1,0 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+ width: 100vw;
+ margin-top: 10px;
+
+}
+.form-select{
+  width: 250px;
+}
+.unique{
+  margin-top: 10px;
+}
+.main-container{
+  
+}
