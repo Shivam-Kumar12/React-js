@@ -1,0 +1,73 @@
+/* Card.css */
+.large {
+    font-size: 22 px;
+    font-weight: 500;
+}
+
+.card {
+    max-width: 280px;
+    max-height: 500px;
+
+}
+
+.card-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+}
+.home-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+}
+.danger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+}
+
+.found {
+    width: 50vw;
+    display: block;
+    position: fixed;
+    margin-top:150px;
+    margin-left: 250px;
+
+
+
+}
+
+.body-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+.search {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.warning {
+    margin: 5px;
+}
+
+.category {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
