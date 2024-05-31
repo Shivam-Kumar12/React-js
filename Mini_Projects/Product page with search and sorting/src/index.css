@@ -1,0 +1,11 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-select{
+  width: 180px;
+}
+.unique{
+  margin-top: 15px;
+}
