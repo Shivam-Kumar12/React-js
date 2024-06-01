@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(87, 222, 177, 0.879);
+
+}
+h1{
+  font-size: 20px;
+  text-align: center;
+  
+}
+.input-section{
+  width:550px;
+  height: 280px;
+  border: 1px solid black;
+  background-color: aliceblue;
+  
+
+}
+.slider-output{
+  
+  
+}
+.input-slider{
+  width: 200px;
+  font-size:40px ;
+}
