@@ -1,0 +1,19 @@
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+}
+.icon{
+display: flex;
+gap: 20px;
+}
